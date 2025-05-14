@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="ba95d0c4-8e0c-40b0-a5e9-e5ea5fef21d0" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/git_toolbox_blame.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/readme.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ridwan/BaseTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ridwan/CucumberTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ridwan/LoginTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ridwan/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ridwan/apiauto/APITest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ridwan/page/CartPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ridwan/page/CheckoutInfoPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ridwan/page/CheckoutOverviewPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ridwan/page/HomePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ridwan/page/LoginPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ridwan/stepdef/CheckoutCartStep.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ridwan/stepdef/CucumberHooks.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ridwan/stepdef/HomeStep.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ridwan/stepdef/LoginStep.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/Login.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/accessCart.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/addCart.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/checkout.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/jsonSchema/getSingleUserJsonSchema.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/testing.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="ApiAndWebAutomationWithGitAction" type="f1a62948:ProjectNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitToolBoxStore">
+    <option name="recentBranches">
+      <RecentBranches>
+        <option name="branchesForRepo">
+          <list>
+            <RecentBranchesForRepo>
+              <option name="branches">
+                <list>
+                  <RecentBranch>
+                    <option name="branchName" value="main" />
+                    <option name="lastUsedInstant" value="1747189622" />
+                  </RecentBranch>
+                  <RecentBranch>
+                    <option name="branchName" value="master" />
+                    <option name="lastUsedInstant" value="1747189621" />
+                  </RecentBranch>
+                </list>
+              </option>
+              <option name="repositoryRootUrl" value="file://$PROJECT_DIR$" />
+            </RecentBranchesForRepo>
+          </list>
+        </option>
+      </RecentBranches>
+    </option>
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 8
+}]]></component>
+  <component name="ProjectId" id="2x4AKTLKdLtrTEWraMjgr5W1ZEc" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Cucumber Java.Feature: addCart.executor": "Debug",
+    "Cucumber Java.Feature: checkout.executor": "Run",
+    "Cucumber Java.Scenario: Add Backpack to cart.executor": "Run",
+    "Gradle.APITest.createNewUser.executor": "Run",
+    "Gradle.APITest.deleteUser.executor": "Run",
+    "Gradle.APITest.getListUser.executor": "Run",
+    "Gradle.APITest.getUser.executor": "Run",
+    "Gradle.APITest.getUserNegative.executor": "Run",
+    "Gradle.APITest.updateUserPATCH.executor": "Run",
+    "Gradle.APITest.updateUserPUT.executor": "Run",
+    "Gradle.APITest.validateJsonSchemaGetSingleUser.executor": "Run",
+    "Gradle.Build ApiAndWebAutomationWithGitAction.executor": "Run",
+    "Gradle.CucumberTest.executor": "Run",
+    "JUnit.CucumberTest.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "TestNG.D:/Ridwan/Learn/QA/project/ApiAndWebAutomationWithGitAction/src/test/resources/testing.xml.executor": "Run",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/Ridwan/Learn/QA/project/ApiAndWebAutomationWithGitAction/src/test/resources",
+    "settings.editor.selected.configurable": "reference.settingsdialog.project.gradle"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Ridwan\Learn\QA\project\ApiAndWebAutomationWithGitAction\src\test\resources" />
+      <recent name="D:\Ridwan\Learn\QA\project\ApiAndWebAutomationWithGitAction\src\test\java\ridwan" />
+      <recent name="D:\Ridwan\Learn\QA\project\ApiAndWebAutomationWithGitAction\src\test\java" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.CucumberTest">
+    <configuration name="Feature: checkout" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/checkout.feature" />
+      <option name="GLUE" value="ridwan.stepdef" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="ApiAndWebAutomationWithGitAction.test" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
+      <option name="SUGGESTED_NAME" value="Feature: checkout" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: Add Backpack to cart" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/addCart.feature" />
+      <option name="GLUE" value="ridwan.stepdef" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="ApiAndWebAutomationWithGitAction.test" />
+      <option name="NAME_FILTER" value="^Add Backpack to cart$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Add Backpack to cart$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Add Backpack to cart" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CucumberTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;ridwan.CucumberTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="CucumberTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ApiAndWebAutomationWithGitAction.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ridwan.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ridwan" />
+      <option name="MAIN_CLASS_NAME" value="ridwan.CucumberTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="D:/Ridwan/Learn/QA/project/ApiAndWebAutomationWithGitAction/src/test/resources/testing.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="ApiAndWebAutomationWithGitAction.test" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/resources/testing.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.CucumberTest" />
+        <item itemvalue="Cucumber Java.Feature: checkout" />
+        <item itemvalue="Cucumber Java.Scenario: Add Backpack to cart" />
+        <item itemvalue="Gradle.CucumberTest" />
+        <item itemvalue="TestNG.D:/Ridwan/Learn/QA/project/ApiAndWebAutomationWithGitAction/src/test/resources/testing.xml" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ba95d0c4-8e0c-40b0-a5e9-e5ea5fef21d0" name="Changes" comment="" />
+      <created>1747186909709</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1747186909709</updated>
+    </task>
+    <servers />
+  </component>
+</project>
