@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ba95d0c4-8e0c-40b0-a5e9-e5ea5fef21d0" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/checkoutCucumber.html" beforeDir="false" afterPath="$PROJECT_DIR$/reports/checkoutCucumber.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/checkoutCucumber.json" beforeDir="false" afterPath="$PROJECT_DIR$/reports/checkoutCucumber.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ridwan/page/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ridwan/page/HomePage.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,9 +70,9 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 8
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
   <component name="ProjectId" id="2x4AKTLKdLtrTEWraMjgr5W1ZEc" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -83,6 +84,7 @@
     "Cucumber Java.Feature: addCart.executor": "Debug",
     "Cucumber Java.Feature: checkout.executor": "Run",
     "Cucumber Java.Scenario: Add Backpack to cart.executor": "Run",
+    "Cucumber Java.Scenario: User proceeds to checkout.executor": "Run",
     "Gradle.APITest.createNewUser.executor": "Run",
     "Gradle.APITest.deleteUser.executor": "Run",
     "Gradle.APITest.getListUser.executor": "Run",
@@ -92,14 +94,16 @@
     "Gradle.APITest.updateUserPUT.executor": "Run",
     "Gradle.APITest.validateJsonSchemaGetSingleUser.executor": "Run",
     "Gradle.Build ApiAndWebAutomationWithGitAction.executor": "Run",
+    "Gradle.Build GitAction.executor": "Run",
     "Gradle.CucumberTest.executor": "Run",
     "JUnit.CucumberTest.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
     "TestNG.D:/Ridwan/Learn/QA/project/ApiAndWebAutomationWithGitAction/src/test/resources/testing.xml.executor": "Run",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/Ridwan/Learn/QA/project/ApiAndWebAutomationWithGitAction/src/test/resources",
+    "last_opened_file_path": "E:/Ridwan/Learn/QA/JayJay/Project InteleJ/GitAction",
     "settings.editor.selected.configurable": "reference.settingsdialog.project.gradle"
   }
 }]]></component>
@@ -110,7 +114,7 @@
       <recent name="D:\Ridwan\Learn\QA\project\ApiAndWebAutomationWithGitAction\src\test\java" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.CucumberTest">
+  <component name="RunManager" selected="Cucumber Java.Feature: checkout">
     <configuration name="Feature: checkout" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/checkout.feature" />
@@ -150,29 +154,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CucumberTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;ridwan.CucumberTest&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>true</RunAsTest>
-      <method v="2" />
+    <configuration name="Scenario: User proceeds to checkout" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/checkout.feature" />
+      <option name="GLUE" value="ridwan.stepdef" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="ApiAndWebAutomationWithGitAction.test" />
+      <option name="NAME_FILTER" value="^User proceeds to checkout$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^User proceeds to checkout$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: User proceeds to checkout" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration name="CucumberTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ApiAndWebAutomationWithGitAction.test" />
@@ -201,10 +201,10 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.CucumberTest" />
         <item itemvalue="Cucumber Java.Feature: checkout" />
+        <item itemvalue="Cucumber Java.Scenario: User proceeds to checkout" />
         <item itemvalue="Cucumber Java.Scenario: Add Backpack to cart" />
-        <item itemvalue="Gradle.CucumberTest" />
+        <item itemvalue="JUnit.CucumberTest" />
         <item itemvalue="TestNG.D:/Ridwan/Learn/QA/project/ApiAndWebAutomationWithGitAction/src/test/resources/testing.xml" />
       </list>
     </recent_temporary>

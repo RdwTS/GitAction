@@ -30,7 +30,7 @@ public class HomePage {
 
     public HomePage(WebDriver driver) {
         this.driver = driver;
-        this.wait = new WebDriverWait(driver, Duration.ofSeconds(120));
+        this.wait = new WebDriverWait(driver, Duration.ofSeconds(180));
     }
 
     public void validateOnHomePage() {
