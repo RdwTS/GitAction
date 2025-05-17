@@ -113,7 +113,7 @@
       <recent name="D:\Ridwan\Learn\QA\project\ApiAndWebAutomationWithGitAction\src\test\java" />
     </key>
   </component>
-  <component name="RunManager" selected="Cucumber Java.Feature: checkout">
+  <component name="RunManager" selected="Cucumber Java.Scenario: Add Backpack to cart">
     <configuration name="Feature: checkout" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/checkout.feature" />
@@ -200,9 +200,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Cucumber Java.Scenario: Add Backpack to cart" />
         <item itemvalue="Cucumber Java.Feature: checkout" />
         <item itemvalue="Cucumber Java.Scenario: User proceeds to checkout" />
-        <item itemvalue="Cucumber Java.Scenario: Add Backpack to cart" />
         <item itemvalue="JUnit.CucumberTest" />
         <item itemvalue="TestNG.D:/Ridwan/Learn/QA/project/ApiAndWebAutomationWithGitAction/src/test/resources/testing.xml" />
       </list>

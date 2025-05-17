@@ -55,8 +55,12 @@ public class HomePage {
             ((JavascriptExecutor) driver).executeScript("arguments[0].click();", addButton);// Klik pakai JavaScript
         }
 
-        wait.until(ExpectedConditions.invisibilityOfElementLocated(productBackpackAddChart));
-//        wait.until(ExpectedConditions.visibilityOfElementLocated(productBackpackRemoveChart));
+        try {
+            wait.until(ExpectedConditions.invisibilityOfElementLocated(productBackpackAddChart));
+        } catch (Exception e) {
+            wait.until(ExpectedConditions.visibilityOfElementLocated(productBackpackRemoveChart));
+        }
+
     }
 
 
