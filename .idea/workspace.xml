@@ -6,7 +6,13 @@
   <component name="ChangeListManager">
     <list default="true" id="ba95d0c4-8e0c-40b0-a5e9-e5ea5fef21d0" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/checkoutCucumber.html" beforeDir="false" afterPath="$PROJECT_DIR$/reports/checkoutCucumber.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/checkoutCucumber.json" beforeDir="false" afterPath="$PROJECT_DIR$/reports/checkoutCucumber.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ridwan/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ridwan/BaseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ridwan/page/CartPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ridwan/page/CartPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/ridwan/page/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ridwan/page/HomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ridwan/stepdef/CheckoutCartStep.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ridwan/stepdef/CheckoutCartStep.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,6 +89,7 @@
     "Cucumber Java.Feature: addCart.executor": "Debug",
     "Cucumber Java.Feature: checkout.executor": "Run",
     "Cucumber Java.Scenario: Add Backpack to cart.executor": "Run",
+    "Cucumber Java.Scenario: User can access the cart page.executor": "Run",
     "Cucumber Java.Scenario: User proceeds to checkout.executor": "Run",
     "Gradle.APITest.createNewUser.executor": "Run",
     "Gradle.APITest.deleteUser.executor": "Run",
@@ -113,7 +120,7 @@
       <recent name="D:\Ridwan\Learn\QA\project\ApiAndWebAutomationWithGitAction\src\test\java" />
     </key>
   </component>
-  <component name="RunManager" selected="Cucumber Java.Scenario: Add Backpack to cart">
+  <component name="RunManager" selected="Cucumber Java.Scenario: User can access the cart page">
     <configuration name="Feature: checkout" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/checkout.feature" />
@@ -142,6 +149,26 @@
       <option name="NAME_FILTER" value="^Add Backpack to cart$" />
       <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Add Backpack to cart$&quot;" />
       <option name="SUGGESTED_NAME" value="Scenario: Add Backpack to cart" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: User can access the cart page" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/accessCart.feature" />
+      <option name="GLUE" value="ridwan.stepdef" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="ApiAndWebAutomationWithGitAction.test" />
+      <option name="NAME_FILTER" value="^User can access the cart page$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^User can access the cart page$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: User can access the cart page" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -188,23 +215,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="D:/Ridwan/Learn/QA/project/ApiAndWebAutomationWithGitAction/src/test/resources/testing.xml" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="ApiAndWebAutomationWithGitAction.test" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/resources/testing.xml" />
-      <option name="TEST_OBJECT" value="SUITE" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Cucumber Java.Scenario: User can access the cart page" />
         <item itemvalue="Cucumber Java.Scenario: Add Backpack to cart" />
-        <item itemvalue="Cucumber Java.Feature: checkout" />
         <item itemvalue="Cucumber Java.Scenario: User proceeds to checkout" />
+        <item itemvalue="Cucumber Java.Feature: checkout" />
         <item itemvalue="JUnit.CucumberTest" />
-        <item itemvalue="TestNG.D:/Ridwan/Learn/QA/project/ApiAndWebAutomationWithGitAction/src/test/resources/testing.xml" />
       </list>
     </recent_temporary>
   </component>

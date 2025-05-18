@@ -21,7 +21,7 @@ public class CheckoutCartStep extends BaseTest {
     CheckoutOverviewPage checkoutOverviewPage;
 
     @Given("user clicks the cart icon")
-    public void userClickCartPage() {
+    public void userClickCartPage() throws InterruptedException {
         homePage = new HomePage(driver);
         homePage.clickCart();
     }
@@ -47,7 +47,7 @@ public class CheckoutCartStep extends BaseTest {
 
 
     @When("user clicks the Checkout button")
-    public void userClicksTheCheckoutButton() {
+    public void userClicksTheCheckoutButton() throws InterruptedException {
         cartPage.clickCheckoutButton();
     }
 

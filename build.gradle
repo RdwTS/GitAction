@@ -13,7 +13,7 @@ dependencies {
     testImplementation("io.github.bonigarcia:webdrivermanager:6.1.0") {
         exclude group: 'com.google.guava', module: 'guava'
     }
-    testImplementation("org.seleniumhq.selenium:selenium-java:4.31.0") {
+    testImplementation("org.seleniumhq.selenium:selenium-java:4.32.0") {
         exclude group: 'com.google.guava', module: 'guava'
     }
 
